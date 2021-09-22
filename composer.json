@@ -1,0 +1,19 @@
+{
+    "name": "soulscripter/creator-updater",
+    "type": "library",
+    "require": {
+        "epubli4/permission-bundle": "^0.1.34",
+        "doctrine/orm": "^2.9",
+        "doctrine/annotations": "^1.13",
+        "doctrine/doctrine-bundle": "^2.4",
+        "api-platform/core": "^2.6",
+        "php": "7.4.*",
+        "symfony/serializer": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "SoulScripter",
+            "email": "denis.lissek.main@gmail.com"
+        }
+    ]
+}
