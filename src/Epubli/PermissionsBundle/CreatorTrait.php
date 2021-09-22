@@ -1,6 +1,6 @@
 <?php
 
-namespace SoulScripter\OrmTrait;
+namespace SoulScripter\OrmTrait\Epubli\PermissionsBundle;
 
 use ApiPlatform\Core\Annotation as ApiPlatform;
 use Doctrine\ORM\Mapping as ORM;
