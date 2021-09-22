@@ -1,5 +1,5 @@
 {
-    "name": "soulscripter/creator-updater",
+    "name": "soulscripter/orm-traits-bundle",
     "type": "library",
     "license": "MIT",
     "require": {
@@ -19,7 +19,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "SoulScripter\\ApiPlatform\\OrmTrait\\": "src/"
+        "SoulScripter\\OrmTrait\\": "src/"
       }
     }
 }

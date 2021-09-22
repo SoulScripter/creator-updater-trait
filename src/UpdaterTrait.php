@@ -1,6 +1,6 @@
 <?php
 
-namespace SoulScripter\ApiPlatform\OrmTrait;
+namespace SoulScripter\OrmTrait;
 
 use ApiPlatform\Core\Annotation as ApiPlatform;
 use Doctrine\ORM\Mapping as ORM;
