@@ -1,6 +1,7 @@
 {
     "name": "soulscripter/creator-updater",
     "type": "library",
+    "license": "MIT",
     "require": {
         "epubli4/permission-bundle": "^0.1.34",
         "doctrine/orm": "^2.9",
@@ -15,5 +16,10 @@
             "name": "SoulScripter",
             "email": "denis.lissek.main@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+      "psr-4": {
+        "SoulScripter\\ApiPlatform\\OrmTrait\\": "src/"
+      }
+    }
 }
