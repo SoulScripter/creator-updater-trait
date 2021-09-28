@@ -5,9 +5,11 @@ services:
     autoconfig: true
 
   SoulScripter\OrmTrait\Creator\PermissionBundleListener:
+    autowire: true
     tags:
       - { name: doctrine.event_listener, event: prePersist }
 
   SoulScripter\OrmTrait\Updater\PermissionBundleListener:
+    autowire: true
     tags:
       - { name: doctrine.event_listener, event: preUpdate }
