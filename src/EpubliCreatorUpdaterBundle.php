@@ -6,9 +6,9 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * Class OrmTraitBundle
- * @package Epubli\CreatorUpdaterBundle
+ * @package Epubli\EpubliCreatorUpdaterBundle
  */
-class CreatorUpdaterBundle extends Bundle
+class EpubliCreatorUpdaterBundle extends Bundle
 {
 
 }
