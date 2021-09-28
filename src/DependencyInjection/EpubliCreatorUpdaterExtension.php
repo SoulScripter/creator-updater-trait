@@ -7,7 +7,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class EpubliOrmTraitsExtension extends Extension
+class EpubliCreatorUpdaterExtension extends Extension
 {
     /**
      * @inheritDoc
