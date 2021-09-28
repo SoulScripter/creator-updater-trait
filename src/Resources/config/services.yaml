@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    public: true
+    autowire: true
+    autoconfig: true
+
+  SoulScripter\OrmTrait\Creator\PermissionBundleListener:
+    tags:
+      - { name: doctrine.event_listener, event: prePersist }
+
+  SoulScripter\OrmTrait\Updater\PermissionBundleListener:
+    tags:
+      - { name: doctrine.event_listener, event: preUpdate }
