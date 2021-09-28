@@ -4,12 +4,12 @@ services:
     autowire: true
     autoconfig: true
 
-  SoulScripter\OrmTrait\Creator\PermissionBundleListener:
+  Epubli\CreatorUpdaterBundle\Creator\PermissionBundleListener:
     autowire: true
     tags:
       - { name: doctrine.event_listener, event: prePersist }
 
-  SoulScripter\OrmTrait\Updater\PermissionBundleListener:
+  Epubli\CreatorUpdaterBundle\Updater\PermissionBundleListener:
     autowire: true
     tags:
       - { name: doctrine.event_listener, event: preUpdate }

@@ -1,6 +1,6 @@
 <?php
 
-namespace SoulScripter\OrmTrait\Updater;
+namespace Epubli\CreatorUpdaterBundle\Updater;
 
 use Doctrine\ORM\Event\LifecycleEventArgs;
 use Epubli\PermissionBundle\Service\AccessToken;

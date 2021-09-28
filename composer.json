@@ -1,6 +1,6 @@
 {
     "version": "0.0.1",
-    "name": "soulscripter/orm-traits-bundle",
+    "name": "epubli/creator-updater-bundle",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
@@ -16,13 +16,13 @@
     },
     "authors": [
         {
-            "name": "SoulScripter",
+            "name": "Epubli",
             "email": "denis.lissek.main@gmail.com"
         }
     ],
     "autoload": {
       "psr-4": {
-        "SoulScripter\\OrmTrait\\": "src/"
+        "Epubli\\CreatorUpdaterBundle\\": "src/"
       }
     }
 }

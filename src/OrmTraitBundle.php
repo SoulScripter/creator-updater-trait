@@ -1,12 +1,12 @@
 <?php
 
-namespace SoulScripter\OrmTrait;
+namespace Epubli\CreatorUpdaterBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * Class OrmTraitBundle
- * @package SoulScripter\OrmTrait
+ * @package Epubli\CreatorUpdaterBundle
  */
 class OrmTraitBundle extends Bundle
 {

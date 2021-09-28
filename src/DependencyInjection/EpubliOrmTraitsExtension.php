@@ -1,13 +1,13 @@
 <?php
 
-namespace SoulScripter\OrmTrait\DependencyInjection;
+namespace Epubli\CreatorUpdaterBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class SoulScripterOrmTraitsExtension extends Extension
+class EpubliOrmTraitsExtension extends Extension
 {
     /**
      * @inheritDoc

@@ -1,6 +1,6 @@
 <?php
 
-namespace SoulScripter\OrmTrait\Creator;
+namespace Epubli\CreatorUpdaterBundle\Creator;
 
 use ApiPlatform\Core\Annotation as ApiPlatform;
 use Doctrine\ORM\Mapping as ORM;
