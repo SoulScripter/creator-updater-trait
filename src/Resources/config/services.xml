@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <defaults autowire="true" autoconfigure="true"/>
+        <service id="epubli_creator_updater.creator.permission_bundle_listener"
+                 class="Epubli\CreatorUpdaterBundle\Services\Creator\PermissionBundleListener"
+                 public="true">
+            <tag name="doctrine.event_listener" event="prePersist" />
+        </service>
+        <service id="epubli_creator_updater.updater.permission_bundle_listener"
+                 class="Epubli\CreatorUpdaterBundle\Services\Updater\PermissionBundleListener"
+                 public="true">
+            <tag name="doctrine.event_listener" event="preUpdate" />
+        </service>
+
+        <service id="Epubli\CreatorUpdaterBundle\Services\Creator\PermissionBundleListener"
+                 alias="epubli_creator_updater.creator.permission_bundle_listener"
+                 public="false"/>
+        <service id="Epubli\CreatorUpdaterBundle\Services\Updater\PermissionBundleListener"
+                 alias="epubli_creator_updater.updater.permission_bundle_listener"
+                 public="false"/>
+    </services>
+</container>
