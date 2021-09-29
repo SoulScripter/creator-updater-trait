@@ -7,20 +7,20 @@
     <services>
         <defaults autowire="true" autoconfigure="true"/>
         <service id="epubli_creator_updater.creator.permission_bundle_listener"
-                 class="Epubli\CreatorUpdaterBundle\Services\Creator\PermissionBundleListener"
+                 class="Epubli\CreatorUpdaterBundle\Service\Creator\PermissionBundleListener"
                  public="true">
             <tag name="doctrine.event_listener" event="prePersist" />
         </service>
         <service id="epubli_creator_updater.updater.permission_bundle_listener"
-                 class="Epubli\CreatorUpdaterBundle\Services\Updater\PermissionBundleListener"
+                 class="Epubli\CreatorUpdaterBundle\Service\Updater\PermissionBundleListener"
                  public="true">
             <tag name="doctrine.event_listener" event="preUpdate" />
         </service>
 
-        <service id="Epubli\CreatorUpdaterBundle\Services\Creator\PermissionBundleListener"
+        <service id="Epubli\CreatorUpdaterBundle\Service\Creator\PermissionBundleListener"
                  alias="epubli_creator_updater.creator.permission_bundle_listener"
                  public="false"/>
-        <service id="Epubli\CreatorUpdaterBundle\Services\Updater\PermissionBundleListener"
+        <service id="Epubli\CreatorUpdaterBundle\Service\Updater\PermissionBundleListener"
                  alias="epubli_creator_updater.updater.permission_bundle_listener"
                  public="false"/>
     </services>
